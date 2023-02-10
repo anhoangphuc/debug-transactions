@@ -26,6 +26,7 @@ const BLOCKCHAIN_URL = "https://polygon-mainnet.infura.io/v3/703cf583b7c6491fb81
 		if (!data.error) {
 			count += 1;
 			console.log(Date.now());
+			console.log(data);
 		}
 	});
 	console.log(`Total success ${count}`);
